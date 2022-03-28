@@ -1,0 +1,814 @@
+{
+    "toast": {
+        "success": {
+            "crashUpdated": "<b>Crash selected has been updated.</b>",
+            "exploreCrashSection": "Explore section “Crash analysis”."
+        },
+        "error": {
+            "crashUpdated": "<b>Crash selected has not been processed.</b>",
+            "exploreCrashSection": "There is no further information regarding this crash.",
+            "tripsReportTitle": "<b>Error while downloading trips report.</b>",
+            "crashReportTitle": "<b>Error while downloading crash report.</b>",
+            "responsibilityReportTitle": "<b>Error while downloading responsibility report.</b>",
+            "injuryReportTitle": "<b>Error while downloading injury report.</b>",
+            "genericReportMessage": "The report you requested could not be generated."
+        }
+    },
+    "header": {
+        "name": "Name",
+        "surname": "Surname",
+        "chooseLanguage": "Choose Language..."
+    },
+    "landingPage": {
+        "searchLink": "Research",
+        "insertLink": "Claim Entry",
+        "pleaseWait": "Please wait..."
+    },
+    "searchSection": {
+        "title": "Search",
+        "advancedSearch": "Advanced search",
+        "searchLoaderLabel": "Please wait...",
+        "search": "Search...",
+        "claimIdPlaceholder": "Claim ID",
+        "platePlaceholder": "Licence plate",
+        "buttonLabel": "Search",
+        "resetButton": "Reset",
+        "searchResults": "Search results",
+        "defaultCaption": "You can filter the claims through the search form.",
+        "noResults": "No result.",
+        "seeMoreResults": "See more data",
+        "export": "Export",
+        "latestClaimsVisited": "Latest entries",
+        "claimsAssigned": "Claims assigned",
+        "goToCounterpartClaim": "Go to counterpart claim",
+        "params": {
+            "claimId": "Claim ID",
+            "plate": "Licence plate",
+            "occurredOn": "Occurrence date",
+            "createdOn": "Date of notice",
+            "from": "From",
+            "to": "To",
+            "province": "Location",
+            "card": "Card",
+            "sign": "Sign",
+            "damageType": "Damage type",
+            "claimType": "Claim type"
+        },
+        "results": {
+            "claimId": "Claim ID",
+            "plate": "Licence plate",
+            "province": "Location",
+            "occurredOn": "Occurrence date",
+            "createdOn": "Date of notice",
+            "trips": "No. of Trips",
+            "crash": "No. of Crashes",
+            "intensity": "Intensity of the main crash",
+            "damageType": "Damges",
+            "claimType": "Claim type",
+            "signs": "Signs",
+            "impactedGuarantee": "Impacted guarantee",
+            "injured": "Ass.",
+            "counterpart": "Ctr.",
+            "baremeInjured": "Injured bareme",
+            "baremeCounterpart": "Counterpart bareme",
+            "naturalClaim": "N",
+            "angleOfImpact": "Angle of impact of the main crash",
+            "velocityAtTheMomentOfCrash": "Velocity at the moment of the crash",
+            "latitudeOfCrash": "Latitude of the crash",
+            "longitudeOfCrash": "Longitude of the crash",
+            "timeOfCrash": "Time of the crash",
+            "claimTypePopup": {
+                "title": "Claim type",
+                "CD": "CD: Card Debitore",
+                "CC": "CC: Card Consensuale",
+                "CG": "CG: Card Debitore",
+                "NCD": "NCD: No Card Debitore",
+                "NCC": "NCC: No Card Consensuale",
+                "NCG": "NCG: No Card Debitore"
+            }
+        }
+    },
+    "insertSection": {
+        "title": {
+            "insertClaim": "Claim entry",
+            "latestInserted": "Latest entries",
+            "optionalFields": "Optional fields"
+        },
+        "caption": {
+            "noClaim": "No claims entered recently."
+        },
+        "results": {
+            "claimId": "Claim ID",
+            "plate": "Licence plate",
+            "location": "Location",
+            "claimDate": "Occurrence date",
+            "status": "Status"
+        },
+        "params": {
+            "plate": "Licence plate",
+            "date": "Date",
+            "time": "Time",
+            "location": "Location",
+            "address": "Address",
+            "zipCode": "Zip Code",
+            "district": "District",
+            "country": "Country"
+        },
+        "button": {
+            "send": "Send",
+            "reset": "Reset"
+        },
+        "toast": {
+            "successMessage": "Your request has been accepted. The procedure will appear in the list of the latest entries. The number associeted with this claim is: ",
+            "errorMessage": "Error! There are some problems."
+        }
+    },
+    "claim": {
+        "ahd": {
+            "title": "Send reports",
+            "caption": "Seleziona il tipo di richiesta su cui desideri procedere.",
+            "reportsType": {
+                "crashCertificate": "Crash certificate",
+                "tripsCertificate": "Trips certificate",
+                "theftDossier": "Theft dossier"
+            },
+            "results": {
+                "successTitle": "Successfully sent report",
+                "successMessage": "Your report will be dealt with as soon as possible.",
+                "errorTitle": "Report not sent",
+                "errorMessage": "We are sorry but at this time it is not possible to send the report. We recommend that you try again.",
+                "okButton": "OK"
+            },
+            "form": {
+                "title": {
+                    "CRASH": "Crash certificate",
+                    "TRIPS": "Trips certificate",
+                    "THEFT": "Theft dossier"
+                },
+                "sendReport": "Send report",
+                "subTitle": "(All fields are required)",
+                "notePlaceholder": "Add some note",
+                "datePlaceholder": "Select date and time",
+                "subHeader": {
+                    "plate": "Plate",
+                    "voucher": "Voucher",
+                    "claimId": "Claim ID",
+                    "eventDate": "Event date",
+                    "imei": "IMEI"
+                },
+                "params": {
+                    "note": "Note",
+                    "isUrgent": "Is this request urgent?",
+                    "yes": "Yes",
+                    "no": "No",
+                    "certificateDate": "Certificate date",
+                    "interestPeriod": "Interest period",
+                    "from": "From",
+                    "to": "To",
+                    "hearingDate": "Hearing date",
+                    "hearingTime": "Hearing time"
+
+                },
+                "toast": {
+                    "success": "Successfully sent report.",
+                    "error": "Error! There are some fields to compile."
+                }
+            }
+        },
+        "noClaimData": {
+            "goBack": "Go back",
+            "message400": "It is not possible to view further details relating to this claim.",
+            "message404": "The data of this claim are not present on Unico."
+        },
+        "nav": {
+            "home": "Home",
+            "trips": "Trips",
+            "crash": "Crash analysis",
+            "responsibility": "Liability",
+            "injuries": "Injuries",
+            "ahd": "AHD"
+        },
+        "trips": {
+            "crashList": "Crash List",
+            "report48h": "Report 48 h",
+            "report4h": "Report 4 h",
+            "downloading": "Downloading...",
+            "help": {
+                "timeline": "<h3>Map and Timeline</h3><p>Here you will find all the recorded trips, you can freely navigate in space and time: the movement and updating of these two elements is simultaneous.</p>",
+                "setting": "<h3>Settings</h3><p>You can choose which time interval you are interested in (40min, 4h, 24h, 48h,…) or go back to the main crash.</p>",
+                "crash": "<h3>Selected crash</h3><p>You can select the crash you want to analyze from the map or the timeline, and review all the details in the 'Crash Analysis' section.</p>"
+            }
+        },
+        "crash": {
+            "reportButton": "Crash report",
+            "downloading": "Downloading...",
+            "info": "This section shows the processed data, with relative graphs, relating to the selected crash."
+        },
+        "engine": {
+            "title": "Speed and acceleration",
+            "titleGraph1": "Speed <small class=\"unit\">[mph]</small>",
+            "titleGraph2": "Accelerations <small class=\"unit\">[g]</small>",
+            "options": "Acceleration X / Y / Z <small class=\"unit\">[g]</small>"
+        },
+        "responsibility": {
+            "info": "This prediction is a model derived from the blackbox accelerations and the counterpart angle.",
+            "reportButton": "Responsibility report",
+            "downloading": "Downloading..."
+        },
+        "injuries": {
+            "info": "This section shows the probabilities of injury derived from artificial intelligence models. Therefore the information proposed is not certain but probabilistic.",
+            "driver": "Driver",
+            "passengers": "Passenger",
+            "reportButton": "Injury report",
+            "downloading": "Downloading..."
+        }
+    },
+    "documentation": {
+        "title": "Documentation",
+        "printReport": "Print report",
+        "expertReportButton": "Expert report",
+        "reportToCompile": "Report to compile",
+        "reportToSend": "Report to send",
+        "reportNotCompiled": "Report not compiled.",
+        "location": "Location",
+        "damage": "Damage",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "crashFilters": {
+        "crashType": {
+            "all": "All types",
+            "crash": "Crash",
+            "miniCrash": "Minicrash"
+        },
+        "selectCrashType": "Crash Type",
+        "selectMinAcceleration": "Minimum intensity",
+        "selectTrip": "Route",
+        "minAccelerationRangeDescription": "You can filter the crashes to be show depending on the minimum intensity you are interested in.",
+        "tripType": {
+            "gps": "Detected",
+            "gpsDescription": "Route based on GPS positions.",
+            "route": "Hypothetical",
+            "routeDescription": "Hypothetical reconstruction of the route."
+        }
+    },
+    "tripsReportPopup": {
+        "reportButton": "Trips report",
+        "title": "Trips report",
+        "caption": "Select the period you are interested in and the total interval of hours to observe.",
+        "periodOfInterest": "Period of interest",
+        "hoursToObserve": "Hours to observe",
+        "reportType": "Report type",
+        "ania": "Ania",
+        "noAnia": "No Ania",
+        "downloading": "Downloading...",
+        "generateReport": "Generate report",
+        "reportResults": {
+            "reportAvailable": "Report available",
+            "reportAvailableDescriptionPart1": "The requested report has already been generated on <b>{date}</b>.",
+            "reportAvailableDescriptionPart2": "These are the references to recover it in the documentary:",
+            "protocolNumber": "Protocol number",
+            "reportPreview": "Report preview",
+            "reportPreviewDescriptionPart1": "The download of the report in 'preview' mode has started.",
+            "reportPreviewDescriptionPart2": "Is the result what you want? In this case it will be possible to save it: the registered version will be generated and sent to the document automatically. Otherwise it is possible to modify the initial settings.",
+            "saveAndSendReport": "Save and send report",
+            "changeSettings": "I want to change settings",
+            "successTitle": "Successfully generated document",
+            "thanks": "Thanks!",
+            "successMessagePart1": "The file was registered and also saved in the document.",
+            "successMessagePart2": "The download will start soon"
+        }
+    },
+    "crashReportPopup": {
+        "reportButton": "Report Crash",
+        "title": "Report crash",
+        "caption": "Select the type of report you are interested in.",
+        "reportType": "Report type",
+        "ania": "Ania",
+        "noAnia": "Non Ania",
+        "downloading": "Downloading...",
+        "generateReport": "Generate report",
+        "reportResults": {
+            "reportAvailable": "Report available",
+            "reportAvailableDescriptionPart1": "The requested report has already been generated on <b>{date}</b>.",
+            "reportAvailableDescriptionPart2": "These are the references to recover it in the documentary:",
+            "protocolNumber": "Protocol number",
+            "reportPreview": "Report preview",
+            "reportPreviewDescriptionPart1": "The download of the report in 'preview' mode has started.",
+            "reportPreviewDescriptionPart2": "Is the result what you want? In this case it will be possible to save it: the registered version will be generated and sent to the document automatically. Otherwise it is possible to modify the initial settings.",
+            "saveAndSendReport": "Save and send report",
+            "changeSettings": "I want to change settings",
+            "successTitle": "Successfully generated document",
+            "thanks": "Thanks!",
+            "successMessagePart1": "The file was registered and also saved in the document.",
+            "successMessagePart2": "The download will start soon"
+        }
+    },
+    "reportResults": {
+        "responsibilityTitle": "Responsibility report",
+        "injuryTitle": "Injury report",
+        "reportAvailable": "Report available",
+        "reportAvailableDescriptionPart1": "The requested report has already been generated on <b>{date}</b>.",
+        "reportAvailableDescriptionPart2": "Go to the document to retrieve it.",
+        "okButton": "OK",
+        "successTitle": "Successfully generated document",
+        "successMessagePart1": "The download of the requested report has started.",
+        "successMessagePart2": "The file was also saved in the documentary."
+    },
+    "wheather": {
+        "title": "Weather"
+    },
+ 
+    "unico": {
+        "dateFormat": "dd/mm/yyyy",
+        "accelerationDescription": {
+            "veryHigh": "Very High",
+            "high": "High",
+            "averageHigh": "Average/High",
+            "average": "Average",
+            "low": "low"
+        },
+        "carDirectionValue": {
+            "F": "Forward",
+            "R": "Right",
+            "B": "Reverse",
+            "L": "Left",
+            "-": "Car stopped"
+        },
+        "directionValue": {
+            "F": "Frontal collision",
+            "R": "Right collision",
+            "B": "Rear collision",
+            "L": "Left collision"
+        },
+        "deltaVDescription": {
+            "average": "Average",
+            "high": "Heavy",
+            "low": "Low"
+        },
+        "deltaVType": {
+            "break": "Braking",
+            "acceleration": "Acceleration"
+        },
+        "speedLimitLegend": {
+            "exceeds20": "More than 20km/h",
+            "exceeds10": "More than 10-20km/h",
+            "exceeds0": "More than 0-10km/h",
+            "exceeds": "Limits respected"
+        },
+        "true": "Yes",
+        "false": "No",
+        "login": {
+            "email": "Email",
+            "username": "Username",
+            "password": "Password",
+            "mandatory": "Required field!",
+            "emailAddressNotValid": "Email address is not valid!"
+        },
+        "claimId": {
+            "title": "Claim ID"
+        },
+        "plate": {
+            "title": "Licence plate"
+        },
+        "inOnAt": {
+            "title": "Location & time reported"
+        },
+        "consistency": {
+            "title": "General consistency",
+            "consistent": "Everything is ok",
+            "inconsistent": "Check notifications"
+        },
+        "device": {
+            "title": "Device",
+            "stateSubtitle": "Status",
+            "anomalySubtitle": "Anomalies",
+            "noAnomaly": "No anomalies",
+            "active": {
+                "good": "Active device",
+                "none": "Device not synced",
+                "average": "Device not synced",
+                "warning": "Device not synced",
+                "bad": "Device not synced"
+            },
+            "anomalies": {
+                "0": "Distance between positions greater than 6.2 mi",
+                "000": "Distance between positions greater than 6.2 mi",
+                "001": "Movement with panel off",
+                "002": "Travel more than 10 minutes between panel on and off with limited distance",
+                "003": "No communication from the device within last 60 days",
+                "004": "No data from device activation",
+                "005": "Device power faults detected",
+                "006": "Device detection of multiple crash events",
+                "007": "Sensor offset",
+                "008": "Associated with a code but not activated",
+                "009": "Too many alerts"
+            },
+            "anomaliesType": {
+                "000": "In process/progress",
+                "101": "Anomaly resolved",
+                "102": "Abnormality resolved with the replacement of the mobile terminal",
+                "199": "False anomaly (anomaly was indicated erroneously)"
+            }
+        },
+        "engine": {
+            "value": {
+                "x": "X [g]",
+                "y": "Y [g]",
+                "z": "Z [g]",
+                "acmSpeed": "Accelerometer",
+                "gpsSpeed": "Gps"
+            }
+        },
+        "reliability": {
+            "title": "Data reliability",
+            "allFine": "Everything is ok",
+            "lastDownload": "Latest download",
+            "lastDownloadKoMessage": "Not all data are available yet. The claim will be updated automatically.",
+            "lastDownloadOkMessage": "All data are available.",
+            "nextDowload": "A further download will be possible once data is available.",
+            "noCrashWarning": "Device without crash data",
+            "crashesWarning": "Noisy device",
+            "noTripsWarning": "Device without trips",
+            "stopsWarning": "Many long stops",
+            "noDataWarning": "Device without data",
+            "recordedData": "Data detected",
+            "recordedDataErrors": "Unreliable Data",
+            "dataMessage": "<b>{crashes} {crashes, plural, =0{crashes} one{crash} other{crashes}}</b> and <b>{trips} {trips, plural, =0{trips} one{trip} other{trips}}</b>, <b>{stops} {stops, plural, =0{stops} one{stop} other{stops}}</b> detected."
+        },
+        "alert": {
+            "title": "Alert",
+            "allFine": "Everything is OK.",
+            "allFineMessage": "No notice to show.",
+            "geoDiscordance": "Geographical discrepancy",
+            "geoDiscordanceKoMessage": "Declared location and detected location do not match.",
+            "geoDiscordanceOkMessage": "Declared location and detected location match.",
+            "records": "Claim history",
+            "recordsMessage": "High frequency under this licence plate: <b>{records} claims.</b>"
+        },
+        "deviceCard": {
+            "title": "Device details",
+            "caption": "Device information and status.",
+            "supplier": "Producer",
+            "entitlement": "Entitlement",
+            "company": "Owner",
+            "contract": "Contract type",
+            "info": "Info",
+            "records": "Device status history",
+            "anomalyStart": "Start",
+            "anomalyEnd": "End",
+            "statusCrash": "During claim ",
+            "0": "Device synced but not active",
+            "1": "Active device",
+            "2": "Device permenantly removed",
+            "3": "Device temporarily removed",
+            "4": "Device not synced",
+            "000": "Distance between positions greater than 6.2 mi",
+            "001": "Movement with panel off",
+            "002": "Travel more than 10 minutes between panel on and off with limited distance",
+            "003": "No communication from the device within last 60 days",
+            "004": "No data from device activation",
+            "005": "Device power faults detected",
+            "006": "Device detection of multiple crash events",
+            "007": "Sensor offset",
+            "008": "Associated with a code but not activated",
+            "009": "Too many alerts"
+        },
+        "anomaliesList": {
+            "title": "Anomaly details",
+            "subtitle": "The following anomalies were detected.",
+            "records": "Anomalies history",
+            "anomalyStart": "Start",
+            "anomalyEnd": "End",
+            "anomalyCrash": "During claim »",
+            "noAnomalies": "There are no anomalies",
+            "000": "Distance between positions greater than 6.2 mi",
+            "001": "Movement with panel off",
+            "002": "Travel more than 10 minutes between panel on and off with limited distance",
+            "003": "No communication from the device within last 60 days",
+            "004": "No data from device activation",
+            "005": "Device power faults detected",
+            "006": "Device detection of multiple crash events",
+            "007": "Sensor offset",
+            "008": "Associated with a code but not activated",
+            "009": "Too many alerts"
+        },
+        "geodiscordance": {
+            "title": "Geolocation analysis",
+            "subtitle": "The provinces concerned are highlighted on the map.",
+            "districtDeclared": "Location declared",
+            "districts": "Location of travel"
+        },
+        "calibration": {
+            "title": "Alert",
+            "allFineTitle": "Box Calibration",
+            "allFineMessage": "The calibration data is valid. ",
+            "calibrationErrorTitle": "Box Calibration",
+            "calibrationErrorMessage": "The calibration data are not valid, the box could be rotated with respect to the position of the car."
+        },
+        "expertReport": {
+            "title": "Expert report",
+            "selectPlaceholderLabel": "Select an option",
+            "notePlaceholder": "Add here your note",
+            "assignment": "Assignment",
+            "description": "Description",
+            "status": "Status",
+            "statusValue": {
+                "EDITING": "EDITING",
+                "SUBMITTED": "SUBMITTED"
+            },
+            "assignmentDate": "Assignment date",
+            "author": "Author",
+            "locationConsistency": "Location consistency",
+            "damageConsistency": "Damage consistency",
+            "caption": {
+                "readonly": "The full report follows.",
+                "editable": "Could you provide further answers regarding the claim?"
+            },
+            "generalInfo": {
+                "title": "General Info",
+                "correctInstallation": "Correct installation",
+                "locationConsistency": "Localization coherence between telematics and reporting",
+                "damageConsistency": "Damage coherence between telematics and reporting",
+                "note": "Note"
+            },
+            "dynamics": {
+                "title": "Dynamics",
+                "crash": "Crash",
+                "noCrashReason": "'No crash' reason",
+                "noCrashReasonCaption": "To continue it is necessary to specify the reason for this change.",
+                "maneuverType": "Maneuver type",
+                "maneuverTypeDetail": "Maneuver type detail",
+                "bumpType": "Bump type"
+            },
+            "context": {
+                "title": "Context",
+                "locationStatus": "Location status",
+                "locationStatusDetail": "Location status details",
+                "tripsAfterCrash": "Trips after crash"
+            },
+            "errorMessage": {
+                "correctInstallationNotSetted": "Errore, il campo 'Installazione corretta' non risulta compilato.",
+                "crashNotSetted": "Errore, il campo 'Crash' non risulta compilato.",
+                "noCrashReasonNotSetted": "Errore, il campo 'Motivo No Crash' non risulta compilato.",
+                "noCrashReasonMustBeSetted": "Errore, è necessario compilare il campo note relativo al Motivo 'No Crash'."
+            },
+            "successMessage": {
+                "reportSaved": "Successfully saved report",
+                "reportSent": "Successfully sent report"
+            },
+            "sendButton": "Send",
+            "saveButton": "Save",
+            "okButton": "OK",
+            "editButton": "Edit"
+        },
+        "recordsList": {
+            "title": "Claims history",
+            "subtitle": "Claims history relative to licence plate <b>{plate}</b.",
+            "claimId": "Claim ID",
+            "plate": "Licence plate",
+            "prov": "Province declared",
+            "occurredOn": "Date of claim",
+            "openedOn": "Reporting date",
+            "trips": "Trip num.",
+            "crashes": "Crash num.",
+            "maxAcc": "Intensity",
+            "damage": "Type of damage",
+            "noRecords": "No claim registered.",
+            "damageType": {
+                "C": "P",
+                "P": "I"
+            }
+        },
+        "crashList": {
+            "title": "Crash list",
+            "caption": "The following <b> {crashes} {crashes, plural, =0{crashes} one{crash} other{crashes}}</b> were selected based on the filters set, they are shown in chronological order.",
+            "crashSelectedTitle": "Selected crash",
+            "crashSelected": "Crash selected&#10219;",
+            "time": "Time",
+            "type": "Type",
+            "intensity": "Intensity",
+            "bump": "Bump",
+            "deltaSpeed": "Delta V.",
+            "injuries": "Injuries",
+            "name": "Crash {crashIndex}",
+            "noCrashes": "No crash detected.",
+            "crashType": {
+                "miniCrash": "Mini crash",
+                "crash": "Crash"
+            }
+        },
+        "timeline": {
+            "title": "Timeline",
+            "break": "Stop",
+            "trip": "Driving",
+            "mainCrash": "Main crash",
+            "declaredDateDescription": "<h2>Declared Crash</h2><p>Crash time declared:</p><p><strong>{time}</strong></p>",
+            "range": {
+                "title": "Time frame",
+                "l1800000": "40 min",
+                "l14400000": "4 h",
+                "l86400000": "24 h",
+                "l172800000": "48 h"
+            },
+            "types": {
+                "stops": "Long stop confirmed",
+                "tripEnd": "Journey ended",
+                "tripPos": "GPS detection",
+                "tripStart": "Journey started",
+                "crashPos": "Crash detected"
+            },
+            "timestamp": "Date and time",
+            "quality": "Signal",
+            "speed": "Speed",
+            "distance": "Distance"
+        },
+        "map": {
+            "ctrl": "To zoom the map use CTRL + mouse scroll.",
+            "clickToHide": "Click on this notice to hide it.",
+            "declaredAreaDescription": "The orange area represents the crash location defined in the declaration.",
+            "distance": "Distance from main crash: ",
+            "geocoderPlaceholder": "Search a place...",
+            "declaredDateDescription": "<h2>Declared Crash</h2><p>Crash time declared:</p><p><strong>{time}</strong></p>"
+        },
+        "gpsDetection": {
+            "stops": "Long stop confirmed",
+            "tripEnd": "Journey ended",
+            "tripPos": "GPS detection",
+            "tripStart": "Journey started",
+            "crashPos": "Crash detected",
+            "timestamp": "Date and time",
+            "quality": "Signal",
+            "maxAcceleration": "Intensity",
+            "speed": "Speed",
+            "interDistance": "Distance",
+            "speedDelta": "Delta V",
+            "crashDirection": "Point of impact",
+            "injury": "Injuries"
+        },
+        "speedLimit": {
+            "none": "Speed limit respected.",
+            "small": "Speed limit exceeded.",
+            "medium": "Speed limit exceeded.",
+            "large": "Speed limit exceeded."
+        },
+        "crashDetails": {
+            "title": "Crash data",
+            "occurredOn": "Crash time",
+            "type": "Type",
+            "maxAcceleration": "Intensity",
+            "crashDirection": "Main hit location",
+            "speed": "Crash speed",
+            "speedDelta": "Delta V",
+            "ignition": "Ignition",
+            "direction": "Direction",
+            "shocks": "Num. impacts",
+            "injury": "Injuries",
+            "movingDirection": "Direction",
+            "ignitionState": {
+                "1": "On",
+                "true": "On",
+                "0": "Off",
+                "false": "Off"
+            },
+            "hasInjury": {
+                "true": "Yes",
+                "false": "No"
+            }
+        },
+        "crashDescription": {
+            "excerpt": "On <b>{date}, {time}</b> the driver was traveling along <b>{address}</b>, he make a <span class=\"delta-v\">{deltaVDescription} {deltaVType}</span>; when the device detected a <span class=\"acceleration-description\">{accelerationDescription}</span> crash ({type}): intensity equal to <b>{maxAcceleration}</b>. The device detected <span class=\"crash-direction\">{crashDirection}</span> <b>({angle})</b>. At the moment of impact the speed was <b>{speed}</b>.",
+            "noProcessedExcerpt" : "On <b> {date}, {time} </b> a {type} event was detected by the box which could not be processed due to lack of data."
+        },
+        "excerpt": {
+            "title": "Crash description",
+            "action": "For this event ",
+            "crashNoProcessed": "The crash was not processed by the engine",
+            "bumps": "{bumps} collisions were detected."
+        },
+        "bump": {
+            "angles": {
+                "0": "Frontal collision",
+                "90": "Right collision",
+                "180": "Rear collision",
+                "-90": "Left collision"
+            }
+        },
+        "pluvio": {
+            "title": "Precipitations",
+            "warning": "Service not available.",
+            "info": "The reflectivity at the time the crash occurred.",
+            "caption": {
+                "generic": "Precipitations:",
+                "lightRain": "Light rain",
+                "heavyRain": "Heavy rain",
+                "hailstorm": "Hailstorm"
+            }
+        },
+        "sun": {
+            "title": "Front sun",
+            "info": "Based on studies by Jurado-Piña e Mayora (Jurado-Piña and Mayora, 2009b; Aune, 2017).",
+            "caption": "Front sun:"
+        },
+        "bumps": {
+            "title": "Secondary collisions",
+            "caption": "During the accident {bumps} crashes occurred, the comparison between the individual collisions is shown in chronological order.",
+            "mainBump": "Main collision",
+            "acceleration": "Intensity",
+            "speed": "Crash speed",
+            "deltaSpeed": "Delta V",
+            "noBumps": "No bumps detected."
+        },
+        "crashMap": {
+            "title": "Crash map",
+            "play": "Play",
+            "pause": "Pause",
+            "toCrash": "Impact distance",
+            "speed": "Speed",
+            "gpsQuality": "Signal",
+            "pluvio": "Pluviometric layer",
+            "legendTitle": "99th percentile of daily reflexivity."
+        },
+        "responsibility": {
+            "title": "Dynamics prediction",
+            "insured": "Insured",
+            "counterparty": "Counterpart",
+            "responsibility": "Liability",
+            "noPrediction": "There is not enough information to determine the dynamics.",
+            "reliability": "Reliability of prediction",
+            "wrong": "Liable",
+            "right": "Not Liable",
+            "variables": "Variables chart",
+            "bareme": {
+                "ASS_0": "The insured's vehicle behavior unknown",
+                "CTP_0": "The counterpart's vehicle behavior unknown",
+                "ASS_1": "The insured's vehicle was parked / stopped.",
+                "CTP_1": "The counterpart's vehicle was parked / stopped.",
+                "ASS_8": "The insured's vehicle was driving in the same direction or in the same lane.",
+                "CTP_8": "The counterpart's vehicle was driving in the same direction or in the same lane.",
+                "ASS_14": "The insured's vehicle reversed.",
+                "CTP_14": "The counterpart's vehicle reversed.",
+                "ASS_17": "The insured's vehicle did not observe the priority signal or red light.",
+                "CTP_17": "The counterpart's vehicle did not observe the priority signal or red light."
+            }
+        },
+        "counterpart": {
+            "title": "Counterpart",
+            "description": "If you know the counterpart angle of collision, you can enter it to recalculate the prediction.",
+            "recalculate": "Recalculate",
+            "reset": "Reset"
+        },
+        "injuries": {
+            "probability": "Injury probability",
+            "variables": "Variables chart",
+            "HIGH": "High",
+            "AVERAGE": "Medium",
+            "LOW": "Low",
+            "bodyParts": {
+                "testa-conducente": "Head",
+                "cervicale-conducente": "Cervical",
+                "collo-conducente": "Neck",
+                "torace-conducente": "Chest",
+                "arti-superiori-conducente": "Upper limbs",
+                "arti-inferiori-conducente": "Lower limbs",
+                "addome-conducente": "Abdomen",
+                "organi-interni-conducente": "Internal organs",
+                "bacino-conducente": "Pelvis",
+                "lesioniInterne-conducente": "Internal injuries",
+                "testa-trasportato": "Head",
+                "cervicale-trasportato": "Cervical",
+                "collo-trasportato": "Neck",
+                "torace-trasportato": "Chest",
+                "arti-superiori-trasportato": "Upper limbs",
+                "arti-inferiori-trasportato": "Lower limbs",
+                "addome-trasportato": "Abdomen",
+                "organi-interni-trasportato": "Internal organs",
+                "bacino-trasportato": "Pelvis",
+                "lesioniInterne-trasportato": "Internal injuries"
+            }
+        },
+        "variablesChartDetail": {
+            "title": "Prediction variables",
+            "injuryTitle": "Injury variables",
+            "caption": {
+                "first_part": "The graph shows the telematic components that may have contributed to the event by increasing (+) or decreasing (-) the prediction reliability. The red line ",
+                "second_part": "indicates the limit beyond which the prediction is valid."
+            }
+        },
+        "variables": {
+            "features": {
+                "time": "Timing",
+                "delta_speed": "Delta V",
+                "intensity": "Acceleration",
+                "intensity_variation": "Acceleration variation",
+                "total": "Score"
+            },
+            "angles": {
+                "title": "Angles",
+                "frontal_collision": "Frontal collision",
+                "side_collision": "Side collision",
+                "rear_collision": "Rear collision"
+            }
+        }
+    }
+}
